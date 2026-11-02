@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+
+# Virtual environments
+.venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# macOS
+.DS_Store
+
+# Data generated or downloaded locally
+data/raw/*
+data/interim/*
+data/processed/*
+!data/**/.gitkeep
+
+# Models and generated output
+models/*
+outputs/*
+!models/.gitkeep
+!outputs/**/.gitkeep
+
+# Environment secrets
+.env
